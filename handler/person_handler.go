@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"mockgen-example/model"
-	"mockgen-example/repository"
+	"mockgen-get-started/model"
+	"mockgen-get-started/repository"
 )
 
 type PersonHandler interface {

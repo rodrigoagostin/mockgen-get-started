@@ -1,9 +1,9 @@
 package handler_test
 
 import (
-	"mockgen-example/handler"
-	"mockgen-example/mocks"
-	"mockgen-example/model"
+	"mockgen-get-started/handler"
+	"mockgen-get-started/mocks"
+	"mockgen-get-started/model"
 	"testing"
 
 	"github.com/golang/mock/gomock"

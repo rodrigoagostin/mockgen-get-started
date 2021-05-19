@@ -1,6 +1,6 @@
 package repository
 
-import "mockgen-example/model"
+import "mockgen-get-started/model"
 
 type PersonRepository interface {
 	CreatePerson(person model.Person) model.Person

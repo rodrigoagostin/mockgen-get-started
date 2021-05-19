@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"mockgen-example/handler"
-	"mockgen-example/model"
-	"mockgen-example/repository"
+	"mockgen-get-started/handler"
+	"mockgen-get-started/model"
+	"mockgen-get-started/repository"
 )
 
 func main() {
 	personHandler := handler.NewPersonHandler(repository.NewPersonRepository())
-	person := personHandler.CreatePerson(model.Person{"Person Name", 44})
+	person := personHandler.CreatePerson(model.Person{Name: "Person Name", Age: 44})
 	fmt.Println(person)
 }
